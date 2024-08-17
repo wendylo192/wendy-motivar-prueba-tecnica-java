@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/POM/4.0.0">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.viewnext</groupId>
+	<artifactId>prices</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>prices-domain</module>
+		<module>prices-application</module>
+		<module>prices-infrastructure</module>
+		<module>prices-api</module>
+		<module>prices-util</module>
+	</modules>
+
+	<properties>
+		<java.version>17</java.version>
+		<spring-boot-dependencies.version>3.3.2</spring-boot-dependencies.version>
+		<prices-domain.version>0.0.1-SNAPSHOT</prices-domain.version>
+		<prices-application.version>0.0.1-SNAPSHOT</prices-application.version>
+		<prices-infrastructure.version>0.0.1-SNAPSHOT</prices-infrastructure.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot-dependencies.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+</project>

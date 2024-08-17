@@ -1,0 +1,6 @@
+com\viewnext\PricesApiApplication.class
+com\viewnext\api\dto\PriceRequest.class
+com\viewnext\api\dto\PriceResponse.class
+com\viewnext\api\controller\PriceController.class
+com\viewnext\api\controller\GlobalControllerAdvice.class
+com\viewnext\mapper\PriceResponseMapper.class

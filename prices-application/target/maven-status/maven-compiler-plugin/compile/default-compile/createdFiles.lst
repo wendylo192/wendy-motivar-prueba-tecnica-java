@@ -1,0 +1,6 @@
+com\viewnext\application\port\in\GetAllPricesQuery.class
+com\viewnext\application\port\in\GetPriceForApplicationQuery.class
+com\viewnext\application\service\PriceService.class
+com\viewnext\application\port\out\LoadPricesPort.class
+com\viewnext\application\port\in\GetPriceQuery.class
+com\viewnext\application\port\out\PriceRepositoryPort.class
